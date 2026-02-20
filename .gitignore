@@ -1,0 +1,17 @@
+# Pobrane archiwa i wypakowane systemy plików (RootFS)
+alpine_root/
+*.tar.gz
+*.tar
+
+# Pliki tymczasowe Pythona
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Pliki środowiskowe i systemowe (Windows/macOS)
+.DS_Store
+Thumbs.db
+
+# Katalogi edytorów kodu
+.vscode/
+.idea/
