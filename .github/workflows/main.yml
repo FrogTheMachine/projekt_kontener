@@ -11,16 +11,16 @@ jobs:
     runs-on: ubuntu-latest
 
     steps:
-    - name: 📥 Pobranie kodu repozytorium
+    - name: Pobranie kodu repozytorium
       uses: actions/checkout@v4
 
-    - name: ⚙️ Weryfikacja środowiska
+    - name: Weryfikacja środowiska
       run: |
         python3 --version
         make --version
 
-    - name: 🚀 Prowizjonowanie środowiska
+    - name: Prowizjonowanie środowiska
       run: make prepare
 
-    - name: 🧪 Test automatyczny izolacji i sieci
+    - name: Test automatyczny izolacji i sieci
       run: make test
