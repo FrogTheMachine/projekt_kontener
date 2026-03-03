@@ -165,7 +165,7 @@ def main():
         
         setup_network(pid1, cid)
 
-        print(f"[mini-docker] Kontener uruchomiony. PID Hosta: {pid1}")
+        print(f"[mini_kontener] Kontener uruchomiony. PID Hosta: {pid1}")
         os.waitpid(pid1, 0)
 
 if __name__ == "__main__":
