@@ -26,7 +26,7 @@ wget -q --show-progress "$URL" -O "$FILENAME"
 
 echo -e "${GREEN}[*] Rozpakowywanie systemu plików...${NC}"
 mkdir -p "$ROOTFS_DIR"
-# Używamy sudo tar, aby zachować uprawnienia plików wewnątrz archiwum (ważne dla roota)
+# sudo tar, aby zachować uprawnienia plików wewnątrz archiwum
 sudo tar -xzf "$FILENAME" -C "$ROOTFS_DIR"
 
 echo -e "${GREEN}[*] Sprzątanie...${NC}"

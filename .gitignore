@@ -8,7 +8,7 @@ __pycache__/
 *.py[cod]
 *$py.class
 
-# Pliki środowiskowe i systemowe (Windows/macOS)
+# Pliki środowiskowe i systemowe 
 .DS_Store
 Thumbs.db
 
