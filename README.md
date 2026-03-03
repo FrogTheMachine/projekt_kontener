@@ -116,5 +116,6 @@ Makefile – plik konfiguracyjny narzędzia make, centralizujący komendy projek
 .github/workflows/main.yml – definicja procesów ciągłej integracji (CI) dla GitHub Actions.
 
 .gitignore – konfiguracja zapobiegająca wysyłaniu pobranych archiwów RootFS oraz plików tymczasowych do repozytorium.
+--------------------
 ## Zastrzeżenie (Disclaimer)
 Ten projekt ma charakter wyłącznie edukacyjny. Ze względu na uproszczoną implementację i pominięcie zaawansowanych mechanizmów bezpieczeństwa (np. seccomp profiles, AppArmor/SELinux, drop capabilities), nie jest to narzędzie przeznaczone do uruchamiania w środowisku produkcyjnym.
